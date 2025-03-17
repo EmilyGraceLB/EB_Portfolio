@@ -1,30 +1,34 @@
 body {
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
+    overflow-x: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: blanchedalmond;
+    background-color: black;
 
 }
 
 header {
     margin-top: 20px;
     position: relative;
+    padding: 10%;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
-    padding: 1rem 9%;
-}
-
-li {
-    display: inline;
+    padding: 1rem 2%;
 }
 
 .container {
+    padding-left: 1em;
+    padding-right: 1em;
     height: 10vh;
     display: grid;
-    grid-template-rows: 0.5fr 1.5frS;
+    grid-template-rows: 0.5fr 1.5fr;
     grid-template-columns: repeat(3, 1.5fr);
+}
+
+hr.solid {
+    border-top: 5px;
 }
 
 a:link {
@@ -44,19 +48,24 @@ a:visited {
 }
 
 h1 {
-    font-size: large;
+    font-size: larger;
+    color: antiquewhite;
+    letter-spacing: 0.5em;
 }
 
 h2 {
     font-size: large;
+    color: antiquewhite;
 }
 
 h3 {
     font-size: large;
+    color: antiquewhite;
 }
 
 p {
     font-size: medium;
+    color: antiquewhite;
 }
 
 /* .grid-container {
