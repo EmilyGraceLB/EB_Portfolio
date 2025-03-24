@@ -1,17 +1,38 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0.25%;
     background-color: #24252a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 li, a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: blanchedalmond;
     text-decoration: none;
+    display: inline-flex;
 }
+
+h1, h2, h3{
+    font-size: large;
+    color: blanchedalmond;
+}
+
+p {
+    font-size: medium;
+    color: blanchedalmond;
+}
+
+
+
+/* .container {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px;
+} */
+
 
 /* header {
     display: flex;
@@ -20,8 +41,8 @@ li, a{
     padding: 30px 10%;
 } */
 
-.flex-container {
+/* .flex-container {
     display: flex;
     flex-direction: row;
     display: inline;
-}
+} */
