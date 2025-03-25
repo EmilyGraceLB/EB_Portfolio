@@ -15,8 +15,14 @@ li, a{
     display: inline-flex;
 }
 
-h1, h2, h3{
-    font-size: large;
+h1, h2 {
+    font-size: larger;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: medium;
     color: blanchedalmond;
 }
 
