@@ -36,7 +36,29 @@ p {
     color: blanchedalmond;
 }
 
+.main_image {
+    align-items: center;
+}
 
+.wrapper {
+    max-height: 300px;
+    border: 1px solid;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper ::-webkit-scrollbar {
+    width: 0;
+
+}
+
+.wrapper .item {
+    min-width: 460px;
+    height: 300px;
+    line-height: 300px;
+    /* text-align: center; */
+    margin-right: 2px;
+}
 
 /* .container {
     display: grid;
