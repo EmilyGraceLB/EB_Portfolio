@@ -48,8 +48,16 @@ p {
 }
 
 .wrapper ::-webkit-scrollbar {
-    width: 0;
+    width: 5px;
+}
 
+.wrapper ::-webkit-scrollbar-thumb {
+    background: blanchedalmond;
+    border-radius: 2px;
+}
+
+.wrapper ::-webkit-scrollbar-thumb:hover {
+    background: rgb(244, 204, 144);
 }
 
 .wrapper .item {
