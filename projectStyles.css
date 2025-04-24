@@ -1,3 +1,102 @@
 .project-content {
     display: grid;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.25%;
+    background-color: #24252a;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+li, a{
+    font-weight: 500;
+    font-size: 30px;
+    color: blanchedalmond;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+h1, h2 {
+    font-size: 50px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+h4 {
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+p {
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container img {
+    width: 50%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    background-color: antiquewhite;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container .btn:hover {
+    background-color: rgb(255, 185, 94);
+}
+
+.btn-group button {
+    float: left;
+}
+/* .main_image {
+    align-items: center;
+} */
+
+/* .wrapper {
+    max-height: 300px;
+    border: 1px solid;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper ::-webkit-scrollbar {
+    width: 5px;
+}
+
+.wrapper ::-webkit-scrollbar-thumb {
+    background: blanchedalmond;
+    border-radius: 2px;
+}
+
+.wrapper ::-webkit-scrollbar-thumb:hover {
+    background: rgb(244, 204, 144);
+}
+
+.wrapper .item {
+    min-width: 460px;
+    height: 300px;
+    line-height: 300px;
+    /* text-align: center; */
+    /* margin-right: 2px;
+} */ 
