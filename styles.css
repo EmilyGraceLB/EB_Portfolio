@@ -15,6 +15,10 @@ li, a{
     display: inline-flex;
 }
 
+a:hover {
+    color: rgb(255, 185, 94) ;
+}
+ 
 h1, h2 {
     font-size: 50px;
     color: blanchedalmond;
