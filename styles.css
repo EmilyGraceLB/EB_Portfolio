@@ -6,11 +6,18 @@
     font-family: "Pixelify Sans", sans-serif;
 }
 
+.emiimg {
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
 
 li, a{
     font-weight: 500;
     font-size: 30px;
-    color: blanchedalmond;
+    color: #ffebcd;
     text-decoration: none;
     display: inline-flex;
 }
