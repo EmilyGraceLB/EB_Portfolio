@@ -1,6 +1,6 @@
-document.getElementById("MHDPHDButton").onclick = function () {
+document.getElementById("MHDPHDButton").addEventListener('click',function () {
     window.location.href = "MSDPHD.html";
-};
+}); 
 
 document.getElementById("MPIEBtn").onclick = function () {
     window.location.href = "MPIE.html";
