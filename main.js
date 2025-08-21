@@ -2,6 +2,10 @@ document.getElementById("MHDPHDButton").addEventListener('click',function () {
     window.location.href = "MSDPHD.html";
 }); 
 
+document.getElementById("costarbutton").addEventListener('click',function () {
+    window.location.href = "CoSTARLiveLab.html";
+}); 
+
 document.getElementById("MPIEBtn").addEventListener('click',function () {
         window.location.href = "MPIE.html";
 })
