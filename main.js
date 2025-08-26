@@ -25,3 +25,15 @@ document.getElementById("DIMbtn").onclick = function () {
 document.getElementById("PDMbtn").onclick = function () {
     window.location.href = "PDM.html";
 };
+
+document.getElementById("threesjsbtn").addEventListener('click', function () {
+    window.location.href = "threesjs.html"
+})
+
+document.getElementById("imgpbtn").addEventListener('click', function () {
+    window.location.href = "imgp.html"
+})
+
+document.getElementById("webdevbtn").addEventListener('click', function () {
+    window.location.href = "webdev.html"
+})
